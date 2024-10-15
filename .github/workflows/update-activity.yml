@@ -19,4 +19,4 @@ jobs:
         uses: ShellyOktavia/activity-log@v10
         with:
           GITHUB_USERNAME: "ShellyOktavia"
-          GITHUB_TOKEN: ${{ SECRETS.ACTIONSECRET2024 }} # Ensure this matches the secret name in repository settings 
+          GITHUB_TOKEN: ${{ secrets.ACTIONSECRET2024 }}  
